@@ -12,7 +12,7 @@ model = tf.keras.models.load_model('model.h5')
 with open('Label_encoder.pkl','rb') as file:
     Label_encoder= pickle.load(file)
 
-with open('onehot_Encoder_geo.pkl','rb') as file:
+with open('onehot_encoder_geo.pkl','rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
 with open('scaler.pkl','rb') as file:
